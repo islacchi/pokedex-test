@@ -1,0 +1,113 @@
+html {
+    overflow: -moz-scrollbars-vertical; 
+    overflow-y: scroll;
+}
+body {
+    text-align: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    max-width: auto;
+    background-attachment:fixed ;
+    background-position: center;
+}
+/*Header*/
+
+input{
+    font-size: 20px;
+    width: 28%;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+img.logo-pokemon {
+    width: 450px;
+    margin-bottom: 30px;
+}
+
+img.logo-pokedex {
+    width: 100px;
+    margin: 40px 0px 20px 10px;   
+}
+h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Acme', sans-serif;
+    font-size: 50px;
+}
+
+/*Content*/
+.row{
+    justify-content: center;
+}
+.cont-pokemon {
+    display:  inline-block;
+    margin: 10px;
+    
+}
+
+.cont-pokemon:hover {
+    background-color: #ffcb05;
+    cursor: pointer;
+}
+
+img.specific-info {
+    width: 300px;
+}
+
+.info-pokemon {
+    border: 2px solid black;
+    background-color: #81dafa;   
+}
+
+.container-info-p {
+    font-style: oblique;
+    font-size: 25px;
+    font-weight: 600 ;
+}
+
+.names-pkmn {
+    padding: 10px;
+    font-size: 60px;
+    background-color:#ffcb05;
+    border: 1px solid;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.numb-pkmn {
+    font-size: 40px;font-style: italic;
+}
+
+h2 {
+    width: 100%;
+    padding: 10px;
+}
+
+.cont-h3 {
+    background-color: #d5f3fe;
+    padding: 10px;
+    
+    
+}
+
+button.back {
+    border-style: outset;
+    border-radius: 5%;
+    margin: 20px;
+    width: 180px;
+    padding: 5px;
+    background-color: #eeeeee;
+    font-size: 20px;
+}
+button.back:hover {
+    background-color: #c7a008;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
